@@ -1,0 +1,145 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'BenchNine', sans-serif;
+}
+li{
+	list-style: none;
+}
+h1, h2{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.top-header{
+	background: #fff !important;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0;
+  margin-top: 8px;
+  transition:all .5s ease 0s;
+  -webkit-transition:all .5s ease 0s;
+  -moz-transition:all .5s ease 0s;
+  -o-transition:all .5s ease 0s;
+  -ms-transition:all .5s ease 0s;
+}
+.nav-bar{
+	margin-top: 27px;
+}
+.navbar-toggle span{
+	color: #fff;
+}
+ul.nav{
+	margin: 0;
+	padding: 0;
+}
+.navbar-default .navbar-nav>li>a {
+ 	font-size: 24px;
+	color: #000;
+	text-transform: uppercase;
+	transition: all .7s ease 0s;
+	-webkit-transition: all .7s ease 0s;
+	-moz-transition: all .7s ease 0s;
+	-o-transition: all .7s ease 0s;
+	-ms-transition: all .7s ease 0s;
+	padding: 14px 15px;
+	font-weight: bold;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+li a.active{
+	color: #42b3e5 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+  margin-top: 4px;
+}
+
+.about h2{
+	font-size: 90px;
+	color: black;
+	margin-top: 100px;
+}
+.about-img img{
+	width: 75%;
+}
+.about-details{
+	background: #2a2a2a;
+	border-top: 2px solid #fff;
+	transition: all .7s ease 0s;
+	-webkit-transition: all .7s ease 0s;
+	-moz-transition: all .7s ease 0s;
+	-o-transition: all .7s ease 0s;
+	-ms-transition: all .7s ease 0s;
+}
+.about-details h3{
+	font-size: 36px;
+	color: #fff;
+	margin-top: 0;
+}
+.about-details p{
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 25px;
+	padding-bottom: 30px;
+}
+.Skills{
+	background:black;
+	background-repeat: repeat-y;
+	margin-top: 40px;
+}
+.Skills h2{
+	font-size: 90px;
+	color: #fff;
+	margin-top: 70px;
+	margin-bottom: 0;
+}
+.contact-caption{
+	background: black;
+	margin-top: 50px;
+}
+.contact-heading h2{
+	color: #fff;
+	font-size: 90px;
+}
+.contact-info{
+	padding-left: 40px;
+}
+.contact-info h3{
+	padding-left: 0;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid #13849c;
+	padding-bottom: 12px;
+	margin-bottom: 0;
+}
+.contact-info ul{
+	margin: 0;
+	padding: 0;
+}
+.contact-info ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+.contact-info i.fa{
+	font-size: 16px;
+  	padding-right: 12px;
+  	width: 25px;
+  	height: 38px;
+}
+.contact-info ul li span{
+	font-weight: bold;
+}
+.info-detail{
+	border-top: 1px solid #53cde5;
+	padding-top: 15px;
+}
